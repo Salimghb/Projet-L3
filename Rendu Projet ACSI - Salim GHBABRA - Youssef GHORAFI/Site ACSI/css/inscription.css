@@ -1,0 +1,58 @@
+.forfait{
+	margin-right:3.5%;
+	margin-left:3.5%;
+	padding-bottom: 50px;
+}
+
+.price{
+ font-size: 4em;
+ color: #232331;
+}
+ 
+.panel-default {
+    border-color: #FF0000;
+}
+
+.panel {
+-webkit-transition-property : scale; 
+-webkit-transition-duration : 0.2s; 
+-webkit-transition-timing-function : ease-in-out; 
+-moz-transition : all 0.2s ease-in-out;
+}
+ 
+.panel:hover {
+box-shadow: 0 0 10px rgba(0,0,0,.5);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+}
+
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+}
+
+.bigicon {
+        font-size: 35px;
+        color: #CA1F26;
+}
+
+.formulaire-in{
+	padding-top: 35px;
+}
+
+.formulaire-out{
+	padding-bottom: 35px;
+}
+
+.btn{
+	background-color : #CA1F26;
+	border-color: #CA1F26;
+}
+
+.btn:hover, .btn:focus{
+	background-color : #CA1F26;
+	border-color: #CA1F26;
+}

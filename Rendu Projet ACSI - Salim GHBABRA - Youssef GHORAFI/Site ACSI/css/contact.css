@@ -1,0 +1,35 @@
+#headerwrap{
+    background: url(../img/fondecran.jpeg) no-repeat center;
+ 
+}
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+}
+
+.bigicon {
+        font-size: 35px;
+        color: #8b3700; 
+        border-color: #000000;
+
+}
+
+.formulaire-in{
+	padding-top: 45px;
+}
+
+.formulaire-out{
+	padding-bottom: 40px;
+}
+
+.btn{
+	background-color : #8b3700;
+	border-color: #FFFFFF;
+}
+
+.btn:hover, .btn:focus{ /*hoveeeer*/
+	background-color : #CA0000;
+	border-color: #CA1F26;
+	font-size: 18px;
+}

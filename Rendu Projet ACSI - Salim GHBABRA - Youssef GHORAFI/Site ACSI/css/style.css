@@ -1,0 +1,156 @@
+body{
+	font-family: Calibri,Helvetica,Arial,sans-serif;
+	padding-top: 50px;
+}
+
+.navbar{
+	background-color: #9c7053;
+	border-color: #CA1F26;
+
+}
+
+.navbar-header img{
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+    top:-15px;
+}
+
+.navbar-inverse .navbar-nav .active a{
+	background-color: #514035;
+}
+/*hover li lfoug*/
+.navbar-inverse .navbar-nav .active a:hover{
+	background-color: #3a3a3a;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,20,0.75);
+    color: rgba(255,255,255,1);
+    transition: background-color 0.3s;
+}
+/* hta hadi */
+.navbar-inverse .navbar-nav li:hover{	
+	background-color: #000000;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,20,0.75);
+    color: rgba(255,255,255,1);
+    transition: background-color 0.3s;
+}
+
+.navbar-inverse .navbar-nav li a{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	color: #FFFFFF;
+}
+/*TESGHIR NAFIDA*/
+.navbar-inverse .navbar-toggle{
+	border-color: #FFFFFF;
+	background-color: #cc5300;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+	background-color: #000000;
+	transition: background-color 0.3s;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+	background-color: #000000;
+}
+
+.fa-lock{
+	padding-top: 5px;
+	color: #FFFFFF;
+}
+
+.fa-lock:hover{
+	color: #94161D;
+	transition: color 0.3s;
+}
+
+.title{
+	padding-bottom: 40px;
+}
+
+.title h1{
+	text-align: center;
+  	border-bottom: 3px solid #232331;
+  	padding-top: 60px;
+  	padding-bottom: 20px;
+  	color: #232331;
+}
+
+
+footer{
+	min-height: 259.8px;
+}
+
+.footer-above{
+	height: 200px;
+	background-color: #b74a01;
+	text-align: center;
+}
+
+.footer-list{
+	list-style-type: none;
+	padding-left: 22%;
+}
+
+.footer-list a{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.element-footer{
+	width: 70px;
+	height: 70px;
+	border: 3px solid #000000;
+	border-radius: 100%;
+	margin-top: 25px;
+	color: #000000;
+	transition : background-color .3s, color .3s;
+
+}
+
+.element-footer:hover{
+	background-color: #000000;
+	color: #C00000;
+}
+
+.follow{
+	text-transform: uppercase;
+	color: #000000;
+	padding-top: 20px;
+}
+
+.fa-facebook{
+	padding: 12px 0px 0px 0px;
+}
+
+.fa-twitter{
+	padding: 11px 0px 0px 0px;
+}
+
+.fa-google-plus{
+	padding: 11px 0px 0px 5px;
+}
+
+.fa-instagram{
+	padding: 11px 0px 0px 0px;
+}
+
+.footer-below{
+	background-color: #342e2c;
+	padding: 10px 0;
+
+}
+
+.copyright{
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
